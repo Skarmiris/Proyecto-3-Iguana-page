@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+    background-color: rgb(31, 36, 46);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    background-image: url("../imagen/medusa-1.jpg");
+    top: 73px;
+    left: 0px;
+    width: 100%px;
+    height: 727px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-div-h1 {
+    margin-top: auto;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 73px;
+    padding: 0em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+}
+
+.card {
+    width: 1280px;
+    margin: 48px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 11px 14px 20px 2px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 11px 14px 20px 2px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 11px 14px 20px 2px rgba(0, 0, 0, 0.65);
+}
+
+.article {
+    display: flex;
+}
+
+.right-p img {
+    width: 100%;
+}
+
+img {
+    top: 845px;
+    left: 731px;
+    width: 526px;
+    height: 280px;
+    padding: 1em;
+    float: right;
+    background: rgb(14, 19, 24);
+}
+
+.right-p {
+    width: 640px;
+    background: rgb(14, 19, 24);
+    color: white;
+    padding: 50px
+}
+
+.section-icons {
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    width: 100%;
+    height: 348px;
+    margin: 0px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.section-icons h3 {
+    line-height: 0em;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    padding: 0px
+}
+
+#icono-medusa{
+    
+    padding: 25px;
+    margin: 5%;
+    width: 148px;
+    height: 148px;
+    background: center;
+    float: left;
+    box-sizing: border-box;
+    gap: 10px;
+}
+#medus2{
+    padding: 25px;
+    margin: 5%;
+    width: 148px;
+    height: 148px;
+    background: center;
+    float: left;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+#medus {
+    padding: 25px;
+    margin: 5%;
+    width: 148px;
+    height: 148px;
+    background: center;
+    float: left;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.section-Galeria {
+    top: 1488px;
+    left: 0px;
+    width: 100%;
+    height: 348px;
+    background-color: rgba(20, 19, 18, 0.705);
+    display: inline-block;
+    margin: 0%;
+}
+
+#galeria-img {
+    top: 1561px;
+    left: 814px;
+    width: 316px;
+    height: 202px;
+    padding: 1em;
+    float: left;
+    margin: 5%;
+    box-sizing: border-box;
+    background: 1px rgb(33, 35, 39)
+}
+
+#galeria-imge {
+    top: 1561px;
+    left: 814px;
+    width: 316px;
+    height: 202px;
+    padding: 1em;
+    float: left;
+    margin: 5%;
+    box-sizing: border-box;
+    background: 1px rgb(33, 35, 39)
+}
+
+#galeria-imgen {
+    top: 1561px;
+    left: 814px;
+    width: 316px;
+    height: 202px;
+    padding: 1em;
+    float: left;
+    margin: 5%;
+    box-sizing: border-box;
+    background: 1px rgb(33, 35, 39)
+}
+
+footer {
+    top: 1835px;
+    left: 0px;
+    width: 100%;
+    height: 102px;
+    line-height: 6em;
+    font-size: larger;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    color: white;
+    text-align: center;
+}
